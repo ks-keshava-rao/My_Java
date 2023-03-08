@@ -26,8 +26,10 @@ public class Strings {
         //strings are immutable , a string object cannot be modified ,  
         String string = "samplestring";  
         System.out.println(string.length());
-        // System.println();
-        // System.println();
+        System.out.println(string.toLowerCase());// won't effect the existing str it will create new object in heap and return it 
+        string = string.toLowerCase();//this will create new object and string will point to new object in heap. 
+        System.out.println(string.toLowerCase());
+        // System.println(); 
         // System.println();
         // System.println();
         // System.println();
