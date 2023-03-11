@@ -19,7 +19,6 @@ public class SecondMax {
                 else if(array[i]>max2){
                     max2 = array[i];
                 }
-
             }
             System.out.println(max2);
         }
