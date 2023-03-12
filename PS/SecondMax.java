@@ -1,6 +1,7 @@
+package PS;
 import java.util.Scanner;
 
-public class MaxElement {
+public class SecondMax {
     public static void main(String[] args){
         try (Scanner sc = new Scanner(System.in)) {
             int size;
@@ -9,13 +10,18 @@ public class MaxElement {
             for(int i=0; i<array.length ; i++){
                 array[i]=sc.nextInt();
             }
-            int temp=0;
+            int max2;
+            int max=max2=array[0];
             for(int i=0; i<array.length ; i++){
-                if(array[i]>temp){
-                   temp = array[i];
+                if(array[i]>max ){
+                    max2 = max;
+                    max = array[i];
+                }
+                else if(array[i]>max2){
+                    max2 = array[i];
                 }
             }
-            System.out.println(temp);
+            System.out.println(max2);
         }
     }
 }
