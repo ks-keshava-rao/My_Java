@@ -1,10 +1,8 @@
 Object oriented programming
-1. Abstraction  :- 
-                    1) Hiding internal detail and showing only the relavant part 
-                   increased security , reduces complexity , avoids code duplication .
+1. Abstraction  :-  1) Hiding internal detail and showing only the relavant part 
+                      increased security , reduces complexity , avoids code duplication .
 
-2. Encapsulation :- 
-                    1) Single entity wrapping , every java class is an example of Encapsulation , because we write everything within the 
+2. Encapsulation :- 1) Single entity wrapping , every java class is an example of Encapsulation , because we write everything within the 
                     class only that binds variables and methods together and hides their complexity from other classes.
                     2) If the field is declared private in the class then it cannot be accessed by anyone from o
                     outside the class and hides field within the class. Therefore, it is also called data hiding. Encapsulation = Data Hiding + Abstraction
@@ -16,3 +14,21 @@ Object oriented programming
 
 4. Polymorphism :-  1) Generalization :- something that can be addressed by general term and refered to a set of things by one name . ex students , cars .
                     2) Polymorphism is a concept in which we can execute a single operation in different ways.
+5. Object       :-  1) A object is defined in terms of its properties and behaviour. 
+                    It is a basic unit of Object-Oriented Programming and represents real-life entities. A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of : 
+                    State: It is represented by attributes of an object. It also reflects the properties of an object.
+                    Behavior: It is represented by the methods of an object. It also reflects the response of an object with other objects.
+                    Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
+6. Class        :-  1. Class is a set of object which shares common characteristics/ behavior and common properties/ attributes.
+                    2. Class is not a real world entity. It is just a template or blueprint or prototype from which objects are created.
+                    3. Class does not occupy memory.
+                    4. Class is a group of variables of different data types and group of methods.
+                    5. A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties
+                       or methods that are common to all objects of one type. In general, class declarations can include these components, in order: 
+                            A class in java can contain:
+                            • data member
+                            • method
+                            • constructor
+                            • nested class and 
+                            • interface                 
