@@ -1,0 +1,18 @@
+Object oriented programming
+1. Abstraction  :- 
+                    1) Hiding internal detail and showing only the relavant part 
+                   increased security , reduces complexity , avoids code duplication .
+
+2. Encapsulation :- 
+                    1) Single entity wrapping , every java class is an example of Encapsulation , because we write everything within the 
+                    class only that binds variables and methods together and hides their complexity from other classes.
+                    2) If the field is declared private in the class then it cannot be accessed by anyone from o
+                    outside the class and hides field within the class. Therefore, it is also called data hiding. Encapsulation = Data Hiding + Abstraction
+                    3)Getter and setter methods are used to read and write the private members .
+                    4) ex: gmail , email , bank balance .
+
+3. Inheritance :-   1) Inheriting the properties and behaviour of parent class .
+                    2) Specialization :- modifying and changing some thing in the existing thing and makikng something new .
+
+4. Polymorphism :-  1) Generalization :- something that can be addressed by general term and refered to a set of things by one name . ex students , cars .
+                    2) Polymorphism is a concept in which we can execute a single operation in different ways.
