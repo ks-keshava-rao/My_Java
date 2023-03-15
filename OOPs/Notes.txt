@@ -35,3 +35,11 @@ Object oriented programming
 7. Types of properties :- 1. Read and writable property - getter and setter methods           
                           2. Read - only read method
                           3. write   - only writable
+8. constructor :- 1) initialized when object is created . does not have return type .
+                  2) initialize the instance variable of the Class
+                  3) We use constructors to initialize the object with the default or initial state.
+                  4) Types:- default , parameterized .
+                  -  The default values for primitives may not be what are you looking for.
+                  -  Another reason to use constructor is that it informs about dependencies. 
+                  -  using the constructor, we can request the user of that class for required dependencies.
+                  -  We can find out what it needs in order to use this class, just by looking at the constructor.
