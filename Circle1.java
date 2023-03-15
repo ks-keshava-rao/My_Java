@@ -1,9 +1,9 @@
  class Circle {
     private double radius ;
-    public void setRadius(double rad){
+    public void setRadius(double rad){ //setter method 
         radius =  rad;
     }
-    public double getRadius(){
+    public double getRadius(){//setter methods
         return radius;
     }
     public double area(){
