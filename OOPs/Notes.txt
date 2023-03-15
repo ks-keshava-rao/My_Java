@@ -31,4 +31,7 @@ Object oriented programming
                             • method
                             • constructor
                             • nested class and 
-                            • interface                 
+                            • interface    
+7. Types of properties :- 1. Read and writable property - getter and setter methods           
+                          2. Read - only read method
+                          3. write   - only writable
