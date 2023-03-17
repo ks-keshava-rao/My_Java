@@ -45,3 +45,5 @@ Object oriented programming
                            -  We can find out what it needs in order to use this class, just by looking at the constructor.
 9. Inheritance :-         1. Generalization - achieved using interfaces ex: smartphones - iphone , samsung , vivo which derives from smartphone features . bottom-up 
                           2. Specialization - achieved using Inheritance ex: Iphonex -> Iphone xs as it is extented and improvised . top-down 
+                          3. process of acquiring the features of an existing class into new class. 
+                          4. eveything from parent class is available in inheriting class but not accessible .
