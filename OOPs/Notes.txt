@@ -47,3 +47,5 @@ Object oriented programming
                           2. Specialization - achieved using Inheritance ex: Iphonex -> Iphone xs as it is extented and improvised . top-down 
                           3. process of acquiring the features of an existing class into new class. 
                           4. eveything from parent class is available in inheriting class but not accessible .
+                          5. constructors of top class are always executed first 
+ 
