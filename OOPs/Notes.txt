@@ -48,4 +48,22 @@ Object oriented programming
                           3. process of acquiring the features of an existing class into new class. 
                           4. eveything from parent class is available in inheriting class but not accessible .
                           5. constructors of top class are always executed first 
- 
+10. this  :-     1. this is a reference to current object .
+                          2. to avoid name conflicts . 
+                          3. super is a refernce to a super class . 
+                          4.to refer instance variable of current class
+                          5.to invoke or initiate current class constructor
+                          6.can be passed as an argument in the method call
+                          7.can be passed as argument in the constructor call
+                          8.can be used to return the current class instance
+11. super keyword:-       1. super is a reserved keyword in java i.e, we can’t use it as an identifier.
+                          2. super is used to refer super-class’s instance as well as static members.
+                          3. super is also used to invoke super-class’s method or constructor.
+                          4. super keyword in java programming language refers to the superclass of the class where the super keyword is currently being used.
+                          5. The most common use of super keyword is that it eliminates the confusion between the superclasses and subclasses that have methods with same name.
+                          6. super can be used in various contexts as given below:
+                          it can be used to refer immediate parent class instance variable
+                          it can be used to refer immediate parent class method
+                          it can be used to refer immediate parent class constructor.
+12. Method overriding:-   1. redifining a method of superclass in subclass . 
+
