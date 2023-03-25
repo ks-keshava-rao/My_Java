@@ -24,7 +24,8 @@ public class overriding {
         subclass s = new subclass();//parent display method is shadowed 
         s.display();
         //refernce
-        superclass sup = new subclass();//display method of object is called not the refernce 
-        sup.display();
+        superclass sup = new subclass();//display method of object is called not the refernce ,
+        // super class refernce with subclass object is possible but subclass refernce with superclass object is not possible 
+        sup.display(); 
     }
 }

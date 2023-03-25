@@ -1,0 +1,12 @@
+Types of classes :- 1) concrete class 
+                    2) abstract class 
+1)abstract class referece can be created but not object 
+2)concrete class objects can be created 
+3)abstract method :- that does not have any body undefined method,  must be declared with abstract keyword 
+4)abstract class :- if a class is having atleast one abstract method it must be declared as abstract , 
+  but a class can be declared abstract without any abstract methods also. 
+5)if a class is inheriting from the abstract class it also becomes abstract class , 
+  to become a concrete class it must override all the abstract methods of parent class
+6)abstracts classes are usefull for defining standards 
+7)ex:- franchise business
+8)
