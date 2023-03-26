@@ -9,4 +9,5 @@ Types of classes :- 1) concrete class
   to become a concrete class it must override all the abstract methods of parent class
 6)abstracts classes are usefull for defining standards 
 7)ex:- franchise business
-8)
+8)abstract class and method  cannot be final becuase they are meant to be inherited .
+8)abstract class and method  cannot be static .
