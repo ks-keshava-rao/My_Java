@@ -71,3 +71,4 @@ Object oriented programming
                           4. static and final methods cannot be overrided. overrided cannot be made private if parent method is public but vice versa can happen.
                           5. method overloading is used for compile time Polymorphism because the object can decide depending upon the number of function arguments . 
                           6. mehtod overriding is used for run time Polymorphism because it depends on the object which is created .
+                          
