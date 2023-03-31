@@ -28,10 +28,11 @@ public class Example1
     {
         My n = new My();
         n.meth4();
-        Test t2;
-        t2.meth1();
-        System.out.println(Test.X);
-        Test.meth3();
+        Test2 t2 = new My();
+       t2.meth1();
+       t2.meth2();
+       Test t = new My();
+       t.meth1();
         
     }
 }
