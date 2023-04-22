@@ -1,0 +1,8 @@
+1. Types :- Nested inner class 
+            local inner class
+            anonymous inner class
+            static inner class 
+2. Inner class can access all the members of outer class directly but outclass cannot access inner class object direclty .
+3. By creating the object on inner class inside outer class members can be accesses  
+4. Inner class file will be created by outer$inner.java 
+ 
