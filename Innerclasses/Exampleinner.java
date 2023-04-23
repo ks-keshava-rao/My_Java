@@ -20,7 +20,7 @@ public class Exampleinner {
     public static void main(String args[]){
         outerclass o = new outerclass();
         o.outerdisplay();
-        outerclass.innerclass oi = new outerclass().new innerclass();
+        outerclass.innerclass oi = new outerclass().new innerclass();//directly access the inner class object 
         oi.innerdisplay();
     }
 }
