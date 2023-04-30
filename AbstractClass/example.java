@@ -23,8 +23,5 @@ public class example {
         s = new sub();
         s.meth1();
         s.meth2();
-
-        
-
     }
 }
