@@ -1,6 +1,5 @@
 package Innerclasses;
 
-import javax.naming.InvalidNameException;
 
 class outerclass{
     int x=10;
