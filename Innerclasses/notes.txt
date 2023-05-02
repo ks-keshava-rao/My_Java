@@ -9,4 +9,4 @@
    from existing class . 
 6. Anonymous  class :- Can be defined at the  time of creating the object , useful for interfaces and abstract classes
 7. Static inner class :-  object of static inner class can be directly created without creting the object of outer class . static inner class can only access the 
-   static members of outer class .
+   static members of outer class . 
