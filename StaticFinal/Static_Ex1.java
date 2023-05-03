@@ -26,7 +26,6 @@ public class Static_Ex1 {
     d.show();
     d.display();
     staticdemo.i = 34;
-
     }
 
 }
