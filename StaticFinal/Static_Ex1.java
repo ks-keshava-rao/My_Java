@@ -25,7 +25,12 @@ public class Static_Ex1 {
     staticdemo d = new staticdemo();
     d.show();
     d.display();
-    staticdemo.i = 34;
+    d.y=3;
+    d.i=24;
+    // staticdemo.i = 34;
+    staticdemo d2 = new staticdemo();
+    d2.show();
+    d2.display();
     }
 
 }
