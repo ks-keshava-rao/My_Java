@@ -1,0 +1,2 @@
+1. Packages are used for organizing java project 
+2. classes and interfaces which are related to each other can be grouped together inside one pakcage java
