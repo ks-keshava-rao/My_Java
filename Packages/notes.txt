@@ -1,2 +1,22 @@
 1. Packages are used for organizing java project 
 2. classes and interfaces which are related to each other can be grouped together inside one pakcage java.
+3. to create a package javac -d <path> filename.java
+4. Access modifiers are used for specifying the access levels.
+5. outer class can be only default or public 
+6. relation b/w classes , hasA - has a object , isA - extending to the class . 
+7. default are the members that are public but within the package only .
+
+              default   private   protected   public 
+same class       Y          Y         Y          Y
+
+same package     Y          N         Y          Y
+sub class 
+
+same pack        Y          N         Y          Y
+non sub class
+
+diff pack        N          N         Y          Y
+subclass 
+
+diff pack        N          N         N          Y
+non sub class
