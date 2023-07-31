@@ -20,3 +20,4 @@ subclass
 
 diff pack        N          N         N          Y
 non sub class
+

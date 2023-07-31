@@ -1,6 +1,4 @@
-package PS;
 import java.util.Scanner;
-
 public class SecondMax {
     public static void main(String[] args){
         try (Scanner sc = new Scanner(System.in)) {
