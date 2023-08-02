@@ -1,0 +1,21 @@
+1. Exceptions are run time errors generally faced by users .
+2. Unavailiblity of resources , undesired inputs . 
+3. Exceptional cases when program cannot continue running. 
+4. try{} catch{} catch block will catch the exceptions 
+5. in case of catch block , first catchblock should not be a super class .
+6. finally at the end of a try catch block , can be added without catch block as well 
+    it definately gets executed in any case , used for clean up process .
+7. custom exception classess can be also defined and inbuiilt can also be used . 
+8. examples of inbuilt exception classes in hierarchy of exception classes :- 
+    Object <- throwable <- ClassNotFoundException , IOException , 
+    InterruptedException ,NumberFormatException :- checked
+    , RuntimeException(AirthmeticException, NullPointerException) :- unchecked 
+9. Exception classes are categorized into two checked and unchecked .
+10. Checked Exception :- must handle the exception , java compiler forces to write exception 
+11. Unchecked :- not mandatory to handled  .
+12. Exception class methods :- String e.getMessage() , void e.printStackTrace();
+13. Throw vs Throws
+    exception propogates to the calling method and go on subsequently . 
+     if a method is using "throws" it means that methods that's calling it 
+     must have handled it , as it is a checked exception . 
+
