@@ -16,6 +16,8 @@
 12. Exception class methods :- String e.getMessage() , void e.printStackTrace();
 13. Throw vs Throws
     exception propogates to the calling method and go on subsequently . 
-     if a method is using "throws" it means that methods that's calling it 
-     must have handled it , as it is a checked exception . 
+    if a method is using "throws" it means that methods that's calling it 
+    must have handled it , as it is a checked exception . 
+14. Try with resources :- resource when required , should be acquired , used and release when not in use. so that it can be used by other program . 
 
+ 
