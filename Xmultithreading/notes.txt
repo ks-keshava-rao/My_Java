@@ -1,0 +1,8 @@
+Mutliprogramming ----> Multi user 
+       |-----> Multi Tasking ----> Mutltithreading
+1. More than one program running simultaneously for one user is called multitasking . WINDOWS MACos
+2. Mutltithreading different tasks in an single application , doesn't block the user because threads are independent .
+3. threads are light weighted compared to task they are sub process . 
+4. CPU runs , the threds alternatively but feels like they are runing together . 
+5. mutliprocessing + multithreading = multitasking . 
+6. Threads use shared memory they don't allocate separate memory and easy context switching . 
