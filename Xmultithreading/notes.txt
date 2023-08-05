@@ -2,7 +2,13 @@ Mutliprogramming ----> Multi user
        |-----> Multi Tasking ----> Mutltithreading
 1. More than one program running simultaneously for one user is called multitasking . WINDOWS MACos
 2. Mutltithreading different tasks in an single application , doesn't block the user because threads are independent .
-3. threads are light weighted compared to task they are sub process . 
+3. threads are light weighted compared to task , they are sub process , smallest unit of processing. 
 4. CPU runs , the threds alternatively but feels like they are runing together . 
 5. mutliprocessing + multithreading = multitasking . 
 6. Threads use shared memory they don't allocate separate memory and easy context switching . 
+7. process based multitasking(mutliprocessing) :- dedicated addrress in memory , heavy weight process , expensive communication b/w .
+8. Thread based multitasking(multithreading):- shared address space , lightweight , inexpensive communication , at a time one thread is executed . 
+9. Two things available for achieveing multithreading 1. Thread class (provides mechanism) 2. Runnable Interface ()
+10. Thread class :- multithreading for own class then extend thread into the class . 
+11. Runnable interface :- if class is already extending from other class then implement runnable because java allows only one class to extend at a time . 
+12. 
