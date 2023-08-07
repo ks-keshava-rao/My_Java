@@ -11,4 +11,9 @@ Mutliprogramming ----> Multi user
 9. Two things available for achieveing multithreading 1. Thread class (provides mechanism) 2. Runnable Interface ()
 10. Thread class :- multithreading for own class then extend thread into the class . 
 11. Runnable interface :- if class is already extending from other class then implement runnable because java allows only one class to extend at a time . 
-12. 
+12. Lifecycle of a thread :- New , Active , Blocked/waiting , timed waiting , Terminated . 
+13. STATES of a Thread 
+https://share.anysnap.app/fpzxGUp4C1AQ
+       New:- when a new thread is created and code hasn't run and executed yet . 
+       Active:- 
+
