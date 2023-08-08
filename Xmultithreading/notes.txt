@@ -14,6 +14,33 @@ Mutliprogramming ----> Multi user
 12. Lifecycle of a thread :- New , Active , Blocked/waiting , timed waiting , Terminated . 
 13. STATES of a Thread 
 https://share.anysnap.app/fpzxGUp4C1AQ
-       New:- when a new thread is created and code hasn't run and executed yet . 
-       Active:- 
+       New:- when a new thread is created and code hasn't run and executed yet . only start() method can be called in this state . 
+       Active:- invoked when start() method is called , it has two states . 
+              1. Runnable state :-
+                     1. Ready to run , maybe running or ready to run at the given instant of time 
+                     2. Duty of scheuler to allocate the time for thread to run . 
+                     3. Each thread has a time slot assinged for execution and are served by CPU on first come first serve manner 
+                        process of allocating time to threads is knows as time slicing , runnable state has a queue where all the threads lie waiting for their turn . 
+                     4. A thread can come into runnable state from running , waiting or new states 
+              2. Running state:- 
+                     1. Processor has allocated time slot for the thread execution and it's run method. 
+                     2. Thread can come into running state only from the runnable state . 
+                     3. Running thread may giveup control when sleep() method is invoked goes out of queues , the enters runnable state when time period elaspses . 
+                        when thread is suspended using suspend() for some time to satisfy conditions  . can be revived using resume() method .
+                        when wait() is called on thread to wait for sometime , can be run again using notify() or notifyall() 
+       Blocked or Waiting :- 
+                     1. Whenever the thread is  inactive for a span of time temporarily . 
+                     2. When main thread invokes join() it moves to waiting , then waits for child thread to complete tasks , once completed sends 
+                        a notification to main thread to move to active thread . 
+                     3. Duty of thread scheduler to prioritise which thread to run incase of more threads accumulation . 
+       Timed Waiting :- 
+                     1. longer waiting leads to starvation . 
+                     2. if a thread is executing a critical part then another thread has to wait forever to avoid this 
+                        the another thread is kept in timed waiting to avoid startvation .
+                     3. using sleep() method this is achieved .
+       Terminated state:- 
+                     1. Terminated state is where the thread has finished it's job 
+                     2. abnormal termination occurs when some unusual events like unhandled exception or segmentation fault occurs . 
+                     3. when the run() method completes it's execution of statements . 
+                     4. thread can also be dead by using stop() method .                    
 
