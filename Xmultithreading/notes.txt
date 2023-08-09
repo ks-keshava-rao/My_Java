@@ -66,5 +66,14 @@ https://share.anysnap.app/fpzxGUp4C1AQ
                        9. boolean isAlive() 
                        10. boolean isDaemon()
                        11. boolean isInterrupted() // a method interrupt can interrupt a thread . 
-17. Instance methods :- join
-                      
+17. Instance methods :- 1. void interrupt() // this will interrupt a thread . mostly done in case of waiting or sleeping 
+                        2. void join() // when a thread is finished it's job instead of getting terminated it can wait for other threads to complete . 
+                        3. void join(long millis) // join with time 
+                        4. void run() // has a actual functionaliy of a thread . 
+                        5. void start() // this method knows how to run a thread has a multithreading mechanism
+18. Static methods :-   1. int activeCount() // tells how many threads are active in a group 
+                        2. Thread currentThread() // gives a reference of a running thread.
+                        3. void yield() //if higher priroty thread takes more cpu time and low priority thread waits longer leading to starvation so high priority thread can 
+                                          yield() and allow complete other low prioity thread . 
+                        4. void dumpsStack() //stack of an application , we can know the depth of execution stack . 
+       
