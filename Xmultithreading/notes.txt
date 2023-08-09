@@ -42,5 +42,29 @@ https://share.anysnap.app/fpzxGUp4C1AQ
                      1. Terminated state is where the thread has finished it's job 
                      2. abnormal termination occurs when some unusual events like unhandled exception or segmentation fault occurs . 
                      3. when the run() method completes it's execution of statements . 
-                     4. thread can also be dead by using stop() method .                    
+                     4. thread can also be dead by using stop() method . 
+14. Thread priorities :- 
+                     1. by default priority is 5 
+                     2. min is 1 max is 10 . 
+                     3. ex- keyboard input - T1 high priority , auto checker - low priority . 
+                            , fetching data is priority , rendering is less priority . 
+                     4. Java has own multithreading system , jvm has own scheduler.
 
+ 15. Thread class :- 1. Thread()
+                     2. Thread(Runnable r)
+                     3. Thread(Runnable r,String name)
+                     4. Thread(ThreadGroup g, String name)  
+                     5. Thread(String name)                 
+16.getxxx()/setxxx():- 1. long getId() //JVM id for the thread 
+   Enquiry methods     2. String getName()
+                       3. int getPriority()
+                       4. ThreadState getState()
+                       5. ThreadGroup getThreadGroup()
+                       6. void setName(String name)
+                       7. void setPriority( int p)
+                       8. void setDaemon(boolean d) // Daemon thread a thread which runs in background with least priority ex:- autosave , garbage collector .
+                       9. boolean isAlive() 
+                       10. boolean isDaemon()
+                       11. boolean isInterrupted() // a method interrupt can interrupt a thread . 
+17. Instance methods :- join
+                      
