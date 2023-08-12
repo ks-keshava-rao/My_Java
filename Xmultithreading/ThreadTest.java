@@ -10,6 +10,7 @@ class MyThread extends Thread {
         }
     }
 }
+
 public class ThreadTest {
     public static void main(String[] args){
         MyThread t = new MyThread();//can be donein same class as well as different class 
