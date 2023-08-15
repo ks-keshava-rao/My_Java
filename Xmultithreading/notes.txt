@@ -93,3 +93,8 @@ https://share.anysnap.app/fpzxGUp4C1AQ
                         5. Semaphore:- When thread1 is in the ready queue and wants to utilize the resource it will call wait() method and use it , 
                             if thread2 wants to use the resource it will call the wait() but since resource is already been used and locked , the thread 2 will go to 
                             block queue and wait for the thread1 to finish once therad1 is finished it will call signal() and thread2 will be added to ready queue. 
+                            -> locking and ulocking is done by operating system . 
+                        6. Monitor:- Java provides the whole object for read write operations and performs Mutual exclusion . here neither thread nor operating system is involved in the 
+                                          mutual exclusion . monitor provides it's own read and write operations .
+                                          
+                        
