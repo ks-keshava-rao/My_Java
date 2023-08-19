@@ -96,5 +96,14 @@ https://share.anysnap.app/fpzxGUp4C1AQ
                             -> locking and ulocking is done by operating system . 
                         6. Monitor:- Java provides the whole object for read write operations and performs Mutual exclusion . here neither thread nor operating system is involved in the 
                                           mutual exclusion . monitor provides it's own read and write operations .
-                                          
+20. Inter-Thread communication :- 
+                        1. Producer writes a shared object . 
+                        2. Consumer should consume or read the data that is written by the producer . 
+                        3. When producer writes it should make a flag false and consumer can read and toggle the flag again for producer to write again .
+                        4. Race condition :-  when consumer1 is done reading from the object it'll nortify and goes into blocked state , then there's a uncertainity which consumer thread will be executing next 
+                           this leads to a RACE CONDITION between the threads . in this race condition producer is also involved and it may execute again . 
+                        5. to overcome this  When more that one consumer are there each consumer can increment the flag by 1 till Nth consumer and it'll be zero when nth consumer is done so that producer can resume writing . 
+                           procducer thread will only execute when the count is 0 . 
+                        6. Inter-thread communication has to be achieved programmatically . 
+
                         
