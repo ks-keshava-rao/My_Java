@@ -1,4 +1,4 @@
-package abstractexample;
+package Old.abstractexample;
 abstract class Super {
     public Super(){
         System.out.println("abstracts constructors ");

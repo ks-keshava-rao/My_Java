@@ -1,4 +1,4 @@
-package interfaceExample;
+package Old.interfaceExample;
 interface test {
     void method1();
     void method2();
