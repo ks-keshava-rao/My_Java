@@ -1,0 +1,8 @@
+1. Annotations give the metadata to class or interfaces . 
+2. built in Annotations into two types :- Applied to the code(affect on code) and Applied to other Annotations .
+3. inbuild Annotations 
+    1. @Override
+    2. @Deprecated
+    3. @Functionallinterface
+    4. @SuppressWarnings
+    5. @SafeVarargs
