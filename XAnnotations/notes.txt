@@ -6,3 +6,4 @@
     3. @Functionallinterface
     4. @SuppressWarnings
     5. @SafeVarargs
+4. Userdefined annotation can b added to class , methods , data members , variable etc.
