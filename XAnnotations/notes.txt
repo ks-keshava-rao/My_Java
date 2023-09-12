@@ -7,3 +7,10 @@
     4. @SuppressWarnings
     5. @SafeVarargs
 4. Userdefined annotation can b added to class , methods , data members , variable etc.
+5. other built in annotations 
+    1. Retention
+    2. Documented
+    3. Target 
+    4. Inherited 
+    5. Repeatable
+6. These all are usefull upon the userdefined annotation.
