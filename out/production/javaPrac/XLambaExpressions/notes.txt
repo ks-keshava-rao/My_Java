@@ -1,3 +1,0 @@
-1. used for defining anonymous methods 
-2. these are defined using interfaces. 
-3. to make a functional interface easy for implementation lambda expressions were introduced . 
