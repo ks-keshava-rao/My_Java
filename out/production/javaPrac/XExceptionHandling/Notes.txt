@@ -1,0 +1,32 @@
+1. Exceptions are run time errors generally faced by users .
+2. Unavailiblity of resources , undesired inputs . 
+3. Exceptional cases when program cannot continue running. 
+4. try{} catch{} catch block will catch the exceptions 
+5. in case of catch block , first catchblock should not be a super class .
+6. finally at the end of a try catch block , can be added without catch block as well 
+    it definately gets executed in any case , used for clean up process .
+7. custom exception classess can be also defined and inbuiilt can also be used . 
+8. examples of inbuilt exception classes in hierarchy of exception classes :- 
+    Object <- throwable <- ClassNotFoundException , IOException , 
+    InterruptedException ,NumberFormatException :- checked
+    , RuntimeException(AirthmeticException, NullPointerException) :- unchecked 
+9. Exception classes are categorized into two checked and unchecked .
+10. Checked Exception :- must handle the exception , java compiler forces to write exception  , they extend Exception class ,  
+, they are checked at compile time . IOException , filenotfoundexception , these must be propogated using throws keyword in the caller function . 
+11. Unchecked :- not mandatory to handled  .checked at runtime , NullPointerException , AirthmeticException , indexoutofbound
+    they extend RuntimeException class , not required to declare explicitly using throws keyword can be propogated without it . 
+12. Exception class methods :- String e.getMessage() , void e.printStackTrace();
+13. Throw vs Throws
+    Throws is used to declare exception , use with method signature . 
+    exception propogates to the calling method and go on subsequently . 
+    if a method is using "throws" it means that methods that's calling it 
+    must have handled it , as it is a checked exception . 
+14. Try with resources :- resource when required , should be acquired , used and release when not in use. so that it can be used by other program . 
+15. Throw is used to throw an exception explicitly ,  checked exception cannot be propogated throw  only , only one exception at a time can be throwed . 
+16. If the superclass method does not declare an exception
+If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
+If the superclass method declares an exception
+If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+
+
+ 

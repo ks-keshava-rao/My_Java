@@ -1,0 +1,74 @@
+Object oriented programming
+1. Abstraction  :-  1) Hiding internal detail and showing only the relavant part 
+                      increased security , reduces complexity , avoids code duplication .
+
+2. Encapsulation :- 1) Single entity wrapping , every java class is an example of Encapsulation , because we write everything within the 
+                    class only that binds variables and methods together and hides their complexity from other classes.
+                    2) If the field is declared private in the class then it cannot be accessed by anyone from o
+                    outside the class and hides field within the class. Therefore, it is also called data hiding. Encapsulation = Data Hiding + Abstraction
+                    3)Getter and setter methods are used to read and write the private members .
+                    4) ex: gmail , email , bank balance .
+
+3. Inheritance :-   1) Inheriting the properties and behaviour of parent class .
+                    2) Specialization :- modifying and changing some thing in the existing thing and makikng something new .
+
+4. Polymorphism :-  1) Generalization :- something that can be addressed by general term and refered to a set of things by one name . ex students , cars .
+                    2) Polymorphism is a concept in which we can execute a single operation in different ways.
+5. Object       :-  1) A object is defined in terms of its properties and behaviour. 
+                    It is a basic unit of Object-Oriented Programming and represents real-life entities. A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of : 
+                    State: It is represented by attributes of an object. It also reflects the properties of an object.
+                    Behavior: It is represented by the methods of an object. It also reflects the response of an object with other objects.
+                    Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
+6. Class        :-  1. Class is a set of object which shares common characteristics/ behavior and common properties/ attributes.
+                    2. Class is not a real world entity. It is just a template or blueprint or prototype from which objects are created.
+                    3. Class does not occupy memory.
+                    4. Class is a group of variables of different data types and group of methods.
+                    5. A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties
+                       or methods that are common to all objects of one type. In general, class declarations can include these components, in order: 
+                            A class in java can contain:
+                            • data member
+                            • method
+                            • constructor
+                            • nested class and 
+                            • interface    
+7. Types of properties :- 1. Read and writable property - getter and setter methods           
+                          2. Read - only read method
+                          3. write   - only writable
+8. constructor :-         1. initialized when object is created . does not have return type .
+                          2. initialize the instance variable of the Class
+                          3. We use constructors to initialize the object with the default or initial state.
+                          4. Types:- default , parameterized .
+                           -  The default values for primitives may not be what are you looking for.
+                           -  Another reason to use constructor is that it informs about dependencies. 
+                           -  using the constructor, we can request the user of that class for required dependencies.
+                           -  We can find out what it needs in order to use this class, just by looking at the constructor.
+9. Inheritance :-         1. Generalization - achieved using interfaces ex: smartphones - iphone , samsung , vivo which derives from smartphone features . bottom-up 
+                          2. Specialization - achieved using Inheritance ex: Iphonex -> Iphone xs as it is extented and improvised . top-down 
+                          3. process of acquiring the features of an existing class into new class. 
+                          4. eveything from parent class is available in inheriting class but not accessible .
+                          5. constructors of top class are always executed first 
+10. this  :-     1. this is a reference to current object .
+                          2. to avoid name conflicts . 
+                          3. super is a refernce to a super class . 
+                          4.to refer instance variable of current class
+                          5.to invoke or initiate current class constructor
+                          6.can be passed as an argument in the method call
+                          7.can be passed as argument in the constructor call
+                          8.can be used to return the current class instance
+11. super keyword:-       1. super is a reserved keyword in java i.e, we can’t use it as an identifier.
+                          2. super is used to refer super-class’s instance as well as static members.
+                          3. super is also used to invoke super-class’s method or constructor.
+                          4. super keyword in java programming language refers to the superclass of the class where the super keyword is currently being used.
+                          5. The most common use of super keyword is that it eliminates the confusion between the superclasses and subclasses that have methods with same name.
+                          6. super can be used in various contexts as given below:
+                          it can be used to refer immediate parent class instance variable
+                          it can be used to refer immediate parent class method
+                          it can be used to refer immediate parent class constructor.
+12. Method overriding:-   1. redifining a method of superclass in subclass . 
+                          2. dynamic dispatch metod :- a super class refernce holding an object of subclass and a over rided method is called , the methods of an object is called not the method of reference 
+                          3. dynamic method dispatch is useful for acheiving run time Polymorphism using method overriding
+                          4. static and final methods cannot be overrided. overrided cannot be made private if parent method is public but vice versa can happen.
+                          5. method overloading is used for compile time Polymorphism because the object can decide depending upon the number of function arguments . 
+                          6. mehtod overriding is used for run time Polymorphism because it depends on the object which is created .
+                          
