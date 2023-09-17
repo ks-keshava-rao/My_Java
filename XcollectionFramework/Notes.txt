@@ -43,5 +43,25 @@ Map(I) |
     9. containsAll(collection<E> e) // checks if all the objects are present in the given collection c1.containsAll(c2) false GH not present in c1.
     10. equals(Object c) // compares two collections by no of objects and objects 
     11. size() // size of the collection 
-    12. iterator() // this interface Scans or parses through the collection . 
+    12. iterator() // this interface Scans or parses through the collection, unidirectional. 
     13. toArray() // converts the collection into an array .
+13. Interface List extends Collection 
+    Ex c1 | A | B | C | D | E | F |
+    1. add(int index,E e) // adding element at a given index by making an free space . 
+    2. addAll(int index, Collection<E> e) // adding the collection element to an index and the present elements at the index will be shifted
+    3. remove(int index) // remove an object from index
+    4. get(int index) // get the object from the index
+    5. set(int index,E e) // set the element at an index by replacing the current operation
+    6. subList(int from , int to) // give the elememts from index from to to .
+    7. indexOf(object o) // gives the index of the object left to right .
+    8. lastIndexOf(object o) // gives the index of the object right to left .
+    9. listIterator() // access the element in bidirectional way
+    10.listIterator(int index) // access from particular index
+14. Interface Set extends collections (Unordered and unique collection of objects)
+    Same methods as collections interface 
+15. Interface Queue extends collections 
+    1. add(E e) // add at the end .
+    2. poll() // remove the first object . if Queue is empty it will return null .
+    3. remove() throws NoSuchElementException // remove the first object . if Queue is empty by throwing NoSuchElementException
+    4. peek() // will give the first element of the queue if empty will return null 
+    5. element() throws NoSuchElementException // will give the first element of the queue if empty will throw NoSuchElementException

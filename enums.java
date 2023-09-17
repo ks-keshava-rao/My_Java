@@ -1,7 +1,7 @@
 enum Dept{
     CS,IT,CIVIL,EEE ;//every identifier here is static and final.
     private Dept(){
-        System.out.pri
+        System.out.print("ge");
     }
 }
 public class enums {
