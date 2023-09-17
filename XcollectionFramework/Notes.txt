@@ -1,0 +1,47 @@
+1. Built in  data structures provided by java .
+2. limitations of an array :- fixed size of an array
+3. if the number of elememtns increase then it's not faesable .
+4. Variable size collection - Array list and linkedlist 
+5. Distinct collection - Set 
+6. Sorted collected - sorted set 
+7. Insert operation (like shifting the element)
+8. Delete 
+9. search
+10. Java provides collections framework in the form of classes and interfaces.
+
+Iterable(I) -----> Collection(I) |
+                                 | --- List(Ordered & Duplicates allowed)(I)
+                                           | --->  ArrayList(C)
+                                           | --->  linkedlist (C)
+                                           | --->  Vectors(C) ----> Stack (C)
+                                 |
+                                 | --- Set(Unordered & No duplicated allowed)(I)
+                                           | ---> Sorted Set(I) ---> Tree set (C)
+                                           | ---> HashSet(C)
+                                           | ---> LinkedHashSet(C)
+                                 |
+                                 | --- Queue(FIFO)(I)
+                                           | ---> Deque(I) ---> ArrayDeque(C)
+                                           | ---> Priority Queue (C)
+Map(I) |
+       | ---> HashMap(C)
+       | ---> LinkedHashMap(C)
+       | ---> HashTable(C)
+       | ---> SortedMap(I) ---> TreeMap(C)
+
+11. Package java.util
+12. Interface Collection - These collection interfaces or classes are generic 
+    Ex c1 | A | B | C | D | E | F |  , c2 E | F | G | H |
+    1. add(E e); // add an object in the collection add()
+    2. addAll(Collection<E> c); // another collection can be passed , c is type of object c1.addAll(c2) ABCDEFGH
+    3. remove(Object o) // Remove an object from collection if found delete . returns boolean . 
+    4. removeAll(collection<E> c) // Removes all the elementes passed in the collection , c1.removeAll(c2) ABCD
+    5. retainAll(collection<E> c) // Retains only those objects which are common c1.retainAll(c2) EF
+    6. clear()  // delete all the objects 
+    7. isEmpty() // returns true if isEmpty
+    8. contains(Object o) // checks if the collection contains the object 
+    9. containsAll(collection<E> e) // checks if all the objects are present in the given collection c1.containsAll(c2) false GH not present in c1.
+    10. equals(Object c) // compares two collections by no of objects and objects 
+    11. size() // size of the collection 
+    12. iterator() // this interface Scans or parses through the collection . 
+    13. toArray() // converts the collection into an array .
