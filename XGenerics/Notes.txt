@@ -1,1 +1,8 @@
-1. By this Generalization can be achieved 
+1. By this Generalization can be achieved .
+2. Converting a subclass type into a superclass type is called ‘Generalization‘ because we are making the subclass to
+     become more general and its scope is widening. This is also called widening or up casting. Widening is safe because the classes will become more general.
+3. Refernce of an object can hold object can hold any any class . Object obj = new String("new");
+4. String str = obj // not allowed directly by super class reference 
+5. String str = (String) obj.
+
+

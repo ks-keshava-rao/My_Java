@@ -1,0 +1,85 @@
+{
+    "deliveryGroups": [
+        {
+            "jobId": "156787be-d029-44d5-b0e1-abe9be5f29f1",
+            "jobTypeId": "bc5a6217-5689-4e10-82a4-fd689107d4c0",
+            "deliveryGroupName": "vinay test 002",
+            "accountId": "769e14c3-ad28-4895-b1f9-b149dc8851e4",
+            "uniquePin": "21ca8888-fa57-4d3e-9d79-238aa69ef23d",
+            "autoMessage": false,
+            "deliveryGroupSteps": [
+                {
+                    "stepId": "11756501-5302-4d76-b7da-58cdd70e2af2",
+                    "contactMethodId": "5298b4ca-b3cd-4f4a-83e4-36af11e19c6e",
+                    "jobId": "156787be-d029-44d5-b0e1-abe9be5f29f1",
+                    "dateAdded": "2023-05-24T13:10:37.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "76f6bf2d-9e5a-48bf-99f9-9951dd3f85b8",
+                    "contactMethodId": "4f3fcc87-6869-4b28-87be-5909aa6a6e32",
+                    "jobId": "156787be-d029-44d5-b0e1-abe9be5f29f1",
+                    "dateAdded": "2023-05-24T13:13:25.000+00:00",
+                    "isDeleted": false
+                }
+            ],
+            "dateAdded": 1684853065841,
+            "isDeleted": false
+        },
+        {
+            "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+            "jobTypeId": "bc5a6217-5689-4e10-82a4-fd689107d4c0",
+            "deliveryGroupName": "some1",
+            "accountId": "769e14c3-ad28-4895-b1f9-b149dc8851e4",
+            "uniquePin": "21ca8888-fa57-4d3e-9d79-238aa69ef23d",
+            "autoMessage": false,
+            "deliveryGroupSteps": [
+                {
+                    "stepId": "0220169a-44c6-41cb-b852-2da7881d5b40",
+                    "contactMethodId": "c62e1537-0dae-4d66-80c3-88c45cde3595",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "5757c706-5d02-4457-b431-f5116b1ae471",
+                    "contactMethodId": "9890dffd-8130-4a93-ac0f-820bd68c5a49",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "8e2a5b96-b793-4829-927b-317ac258d813",
+                    "contactMethodId": "985e5635-e931-411e-9385-dd9781d2dfd9",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "9b114d37-e413-4b21-8b6a-05e4a71ac953",
+                    "contactMethodId": "571f2042-68ad-4222-88c1-d9833d720b5c",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "a27a6eac-2330-4c44-a266-57dbee787aa8",
+                    "contactMethodId": "48440277-eb09-453f-bbd0-db3715078d1a",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                },
+                {
+                    "stepId": "ca06ea88-5ef8-4bb9-8e2b-112768d95e8a",
+                    "contactMethodId": "838220ab-fd83-46e4-b6ae-26b625fc57e2",
+                    "jobId": "2eee9a73-30c9-4f6a-8265-a72fa815ad79",
+                    "dateAdded": "2023-04-19T09:17:59.000+00:00",
+                    "isDeleted": false
+                }
+            ],
+            "dateAdded": 1681895879847,
+            "isDeleted": false
+        }
+    ],
+    "status": true
+}
