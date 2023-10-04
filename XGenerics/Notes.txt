@@ -4,5 +4,12 @@
 3. Refernce of an object can hold object can hold any any class . Object obj = new String("new");
 4. String str = obj // not allowed directly by super class reference 
 5. String str = (String) obj.
+6. if no paramerters are passed then the value will be treated as object and can be store value of any datatype.
+7. multiple paramerters are also allowed
+8. Bounded types 
+class A {}
+class B extends A{}
+class C extends B{} 
 
-
+class my<T extends Number> // This allows only those classes which are extending from Number class 
+ex - my<Float> f = new my<>(); // same thing for interfaces
